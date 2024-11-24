@@ -1,4 +1,4 @@
-package com.litts.android.widget.tintlayout;
+package com.seblit.android.widget.tintlayout;
 
 import android.animation.ArgbEvaluator;
 import android.content.Context;

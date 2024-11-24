@@ -1,4 +1,4 @@
-package com.litts.android.widget.tintlayout;
+package com.seblit.android.widget.tintlayout;
 
 import android.graphics.PointF;
 import android.graphics.RectF;
