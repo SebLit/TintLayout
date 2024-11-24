@@ -32,8 +32,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
 
-      - name: Build and Publish
+      - name: Build
+        run: ./gradlew assembleRelease
+
+      - name: Publish
         env:
           GITHUB_USERNAME: ${{ github.actor }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: ./gradlew assembleRelease publish
+        run: ./gradlew publish
